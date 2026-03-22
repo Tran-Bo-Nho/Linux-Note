@@ -10,3 +10,4 @@
 - `rm <tên file>` : Xóa file
 - `mv <path1> <path2>` : Di chuyển file 
 - `cp <path1> <path2>` : Sao chép và dán
+- `mkdir <tên file>`: Tạo folder
