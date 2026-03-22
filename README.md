@@ -3,8 +3,10 @@
 - `cat` : Mở file 
 - `diff <path1> <path2>` : so sánh xem chỗ nào khác trong 2 file
 - `ls` : Liệt kê trong folder có những folder/file nào
+    + `ls -a`: Liệt kê file bị ẩn ( file có dấu . ở đầu )
 - `pwd` : Xem hiện tại ở đâu
 - `~` : Thay thế, tương đương /home/...
 - `touch <tên file>` : Tạo file
 - `rm <tên file>` : Xóa file
 - `mv <path1> <path2>` : Di chuyển file 
+- `cp <path1> <path2>` : Sao chép và dán
