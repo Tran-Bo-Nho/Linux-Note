@@ -11,4 +11,4 @@
 - `mv <path1> <path2>` : Di chuyển file 
 - `cp <path1> <path2>` : Sao chép và dán
 - `mkdir <tên file>`: Tạo folder
-- `find -<tiêu chí tìm kiếm>`: Tìm file theo tiêu chí ví dụ : find -name xyz
+- `find <Phạm vi tìm kiếm> -<tiêu chí tìm kiếm>`: Tìm file theo tiêu chí ví dụ : find / -name xyz
