@@ -12,3 +12,5 @@
 - `cp <path1> <path2>` : Sao chép và dán
 - `mkdir <tên file>`: Tạo folder
 - `find <Phạm vi tìm kiếm> -<tiêu chí tìm kiếm>`: Tìm file theo tiêu chí ví dụ : find / -name xyz
+- `ln -s <path1> <path2>` : Tạo symlink liên kết mềm, truy cập symlink cũng giống như truy cập file gốc
+- `file <tên file>` : Cho biết tên, loại file, có thể nhận ra symlink
