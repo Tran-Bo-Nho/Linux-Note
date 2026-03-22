@@ -1,0 +1,10 @@
+- `cd` : Di chuyển đến folder/file
+- `grep <string cần tìm> <path>` : Tìm string trong 
+- `cat` : Mở file 
+- `diff <path1> <path2>` : so sánh xem chỗ nào khác trong 2 file
+- `ls` : Liệt kê trong folder có những folder/file nào
+- `pwd` : Xem hiện tại ở đâu
+- `~` : Thay thế, tương đương /home/...
+- `touch <tên file>` : Tạo file
+- `rm <tên file>` : Xóa file
+- `mv <path1> <path2>` : Di chuyển file 
