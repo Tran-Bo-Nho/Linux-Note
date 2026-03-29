@@ -4,6 +4,7 @@
 - `diff <path1> <path2>` : so sánh xem chỗ nào khác trong 2 file
 - `ls` : Liệt kê trong folder có những folder/file nào
     + `ls -a`: Liệt kê file bị ẩn ( file có dấu . ở đầu )
+    + `ls -l`: Cho biết kiểu file(- file thường, d thư mục,...)
 - `pwd` : Xem hiện tại ở đâu
 - `~` : Thay thế, tương đương /home/...
 - `touch <tên file>` : Tạo file
@@ -20,3 +21,9 @@
 - `grep -v <từ/kí tự ko muốn>` : Lọc ra, loại bỏ các string chứa từ / kí tự ko muốn
 - `sed "s/<từ muốn bỏ>/<từ thay thế>/g"` : Trong cùng 1 string, thay thế từ này bằng từ khác
 - `... | tee <file1> <file2>` : Nhân bản các output đi qua pipe, đồng thời inra output và làm input luôn cho các file
+- `export <variable>=<value>` : Khiến nó trở thành biến môi trường
+- `env`: in ra các biến môi trường đã được export
+- `ps -ef`: Liệt kê tiến trình chạy trong terminal
+- `kill <PID>`: Dừng tiến trình
+- `su`: Vào quyền root
+- `sudo <lệnh>`: Chạy lệnh với quyền root
