@@ -30,4 +30,4 @@
 - `chown <tên user> <file>`:Chuyển đổi quyền sở hữu file sang owner khác (thường thì root mới được sử dụng chown)
 - `chgrp <tên user> <file>`:Chuyển đổi quyền sở hữu file sang group khác
 - `id` : Thông tin về user như là User ID, thuộc group nào, tên gì
-- `chmod u/g/o/a<user/group,other,all> +<thêm quyền> hoặc -<xóa quyền> r/w/x <tên file>`: Thêm, xóa quyền làm việc với file của u/g/o/a
+- `chmod u/g/o/a<user/group,other,all> +<thêm quyền> hoặc -<xóa quyền> r/w/x/s(SUID) <tên file>`: Thêm, xóa quyền làm việc với file của u/g/o/a
