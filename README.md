@@ -14,3 +14,9 @@
 - `find <Phạm vi tìm kiếm> -<tiêu chí tìm kiếm>`: Tìm file theo tiêu chí ví dụ : find / -name xyz
 - `ln -s <path1> <path2>` : Tạo symlink liên kết mềm, truy cập symlink cũng giống như truy cập file gốc
 - `file <tên file>` : Cho biết tên, loại file, có thể nhận ra symlink
+- `echo <...> > <file>`: Lấy output echo ghi đè vào file
+- `echo <...> >> <file>`: Lấy output echo ghi nối thêm vào file
+- `grep <từ/kí tự cần tìm> <tên file>`: Lọc ra các string chứa từ / kí tự cần tìm
+- `grep -v <từ/kí tự ko muốn>` : Lọc ra, loại bỏ các string chứa từ / kí tự ko muốn
+- `sed "s/<từ muốn bỏ>/<từ thay thế>/g"` : Trong cùng 1 string, thay thế từ này bằng từ khác
+- `... | tee <file1> <file2>` : Nhân bản các output đi qua pipe, đồng thời inra output và làm input luôn cho các file
