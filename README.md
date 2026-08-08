@@ -79,3 +79,5 @@
 - `telnet <IP> <Port>` : Giống `ssh` nhưng thường chỉ dùng test nhanh xem cổng mở ko
 - `nslookup <link>` : Xem IP của miền
 - `whois <link>` : Thông tin người đăng ký miền, thời điểm tạo, ...
+- `curl <https://example.com>` : Xem nội dung trang web
+- `curl -I <https://example.com>` : Xem thông tin `response header`
