@@ -81,3 +81,5 @@
 - `whois <link>` : Thông tin người đăng ký miền, thời điểm tạo, ...
 - `curl <https://example.com>` : Xem nội dung trang web
 - `curl -I <https://example.com>` : Xem thông tin `response header`
+- `curl -c <file.txt> <https://example.com>` : ghi và lưu lại các cookies mà máy chủ (server) gửi về trình duyệt/client vào một tệp (file)
+- `curl -b <file.txt> <https://example.com>` : đọc và gửi các cookies từ tệp (hoặc dưới dạng chuỗi trực tiếp) từ máy của bạn lên máy chủ trong các yêu cầu tiếp theo.
